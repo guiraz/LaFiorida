@@ -1,0 +1,90 @@
+body
+{
+    background-color : #660000;
+    color : white;
+}
+
+#page
+{
+    width : 75%;
+    margin : auto;
+}
+
+/*
+        HEADER
+*/
+
+header
+{
+    background-color:black;
+    margin : 1px;
+}
+
+#ban
+{
+    display : block;
+    margin : auto;
+}
+
+/*
+        NAV
+*/
+
+nav
+{
+    margin : 1px;
+    margin-bottom:3px;
+    margin-top:3px;
+    height:20px;
+}
+
+#bouton
+{
+    margin :auto;
+    height : 20px;
+    text-align:center;
+    padding : 0px;
+}
+
+#bouton li
+{
+    display: inline;
+    list-style: none;
+    background-image:url("../images/bg.png");
+}
+
+#bouton li a
+{
+    display: inline-block;
+    text-decoration: none;
+    width : 17%;
+    color : white;
+    margin-top:1px;
+    /*border-left:solid grey 1px;
+    border-right:solid grey 1px;*/
+}  
+
+/*
+        SECTIONS
+*/
+
+section
+{
+    height:500px;
+    background-image:url("../images/bg.png");
+    margin:1px;
+}
+
+/*
+        FOOTER
+*/
+
+footer
+{
+    color : grey;
+    background-image: url("../images/bg.png");
+    margin : 1px;
+	text-align : center;
+	font-size : 0.8em;
+	margin-top:3px;
+}
